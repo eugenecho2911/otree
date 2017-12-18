@@ -1,0 +1,25 @@
+{% load otree staticfiles %}
+
+<div class="instructions well well-lg">
+
+    <h3 class="panel-sub-heading">
+        Instructions
+    </h3>
+
+    <p>
+        At the first stage you choose how many of your tokens to contribute to the group.
+        The group grade is determined by the total number of tokens contributed by the members of your group.
+        Contribution could be any integer from 0 to {{ Constants.endowment }}.
+    </p>
+    <p>
+        At the second stage you observe how many tokens each member of your group contributed.
+        You then provide a score between 0 and 12 for each member of your group (including yourself).
+        There will be three scores for you: two scores provided by the other members of your group and a third score that you provided for yourself.
+    </p>
+    <p>
+        Your total individual payoff will be determined by how many tokens the group contributes and the three scores given to you.
+    </p>
+    <p>
+        For your convenience, these instructions will remain available to you on all subsequent screens of this study.
+    </p>
+</div>
